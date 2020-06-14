@@ -1,0 +1,44 @@
+# Jekyll config file
+# sudo gem update jekyll
+# bundle update jekyll && bundle install && bundler exec jekyll _3.8.5_ new . --force
+title: my audio video setup
+email: cprior@gmail.com
+description: >- 
+  How to record advanced screencasts.
+description_de: >- # this means to ignore newlines until "baseurl:"
+  Fortschrittliche Screencasts aufnehmen.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+source:        .
+layouts_dir:  ./biz/marketing/website/_layouts
+includes_dir: ./biz/marketing/website/_includes
+destination:  ./biz/marketing/website/_site
+data_dir:     ./data
+sass:
+    sass_dir: ./biz/marketing/website/assets/_sass
+
+exclude:
+  - app/phy
+  - tec/phy
+  - tec/log
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "app/log/building-blocks"
+      type: "posts" #index.md is of type application-physical_building-blocks
+    values:
+      permalink: /app/log/building-blocks/:title.html
+      #categories: application-logical_building-blocks
