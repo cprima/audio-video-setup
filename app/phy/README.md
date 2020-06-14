@@ -1,0 +1,1 @@
+Implementations of individual applications within the scope of this repository's setup.

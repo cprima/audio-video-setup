@@ -1,0 +1,1 @@
+Logical applications: Blueprints of the applications in this repository's setup.
