@@ -86,9 +86,12 @@ checkrequirements() {
 echo -e "Something descriptive here...\n"
 checkrequirements
 
-cd $__REPODIR/biz/marketing/slides/reveal*
 
 # todo: force kiosk when Chromium already running (instead of just new tab)
 # https://peter.sh/experiments/chromium-command-line-switches/
-$(sleep 6; chromium-browser --start-maximized --kiosk http://localhost:28001/ ) &
-npm start -- --port=28001
+#$(sleep 6; chromium-browser --start-maximized --kiosk http://localhost:28001/ ) &
+#cd $__REPODIR/biz/marketing/slide/reveal.js-4.0.2
+#npm start -- --port=28001
+
+$( sleep 6; chromium-browser --start-maximized --kiosk http://localhost:4000/ ) &
+bundle exec jekyll serve

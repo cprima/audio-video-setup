@@ -4,9 +4,9 @@
 title: my audio video setup
 email: cprior@gmail.com
 description: >- 
-  How to record advanced screencasts.
+  How to record advanced screencasts with a high WAF.
 description_de: >- # this means to ignore newlines until "baseurl:"
-  Fortschrittliche Screencasts aufnehmen.
+  Wie man Screencasts auf fortgeschrittende Weise aufnehmen kann, mit hohem WAF.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -19,14 +19,13 @@ source:        .
 layouts_dir:  ./biz/marketing/website/_layouts
 includes_dir: ./biz/marketing/website/_includes
 destination:  ./biz/marketing/website/_site
-data_dir:     ./data
+data_dir:     ./dat
 sass:
     sass_dir: ./biz/marketing/website/assets/_sass
 
 exclude:
   - app/phy
   - tec/phy
-  - tec/log
 
 defaults:
   -
