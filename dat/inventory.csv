@@ -1,0 +1,6 @@
+ID,class,name,description,serialnumber,location,vendor,usbnfo,,
+1,PC,T530,ThinkPad T530 Ubuntu,239237G,variable,Lenovo,,,
+2,Webcam,C920,Webcam,046d_HD_Pro_Webcam_C920_BE8A2F4F,WOB38A8,Logitech,,,
+3,audio interface,Saffire 6 USB,Focusrite Saffire 6 USB 2.0,S265139070746,WOB38A8,Focusrite,idVendor=1235," idProduct=8008"," bcdDevice= 0.e9"
+4,microphone,SM7B,dynamic microphone,,WOB38A8,Shure,,,
+5,video mixer,ATEM Mini,"","",WOB38A8,Blackmagic,"","",""
