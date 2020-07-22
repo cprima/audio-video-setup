@@ -1,6 +1,11 @@
-ID,class,name,description,serialnumber,location,vendor,usbnfo,,
-1,PC,T530,ThinkPad T530 Ubuntu,239237G,variable,Lenovo,,,
-2,Webcam,C920,Webcam,046d_HD_Pro_Webcam_C920_BE8A2F4F,WOB38A8,Logitech,,,
-3,audio interface,Saffire 6 USB,Focusrite Saffire 6 USB 2.0,S265139070746,WOB38A8,Focusrite,idVendor=1235," idProduct=8008"," bcdDevice= 0.e9"
-4,microphone,SM7B,dynamic microphone,,WOB38A8,Shure,,,
-5,video mixer,ATEM Mini,"","",WOB38A8,Blackmagic,"","",""
+ID,class,name,description,serialnumber,location,vendor,url
+1,PC,T530,ThinkPad T530 Ubuntu,239237G,variable,Lenovo,https://www.lenovo.com/gb/en/laptops/thinkpad/t-series/t530/
+2,Webcam,C920,Webcam -- 2019 model. 1080p at 30fps,046d_HD_Pro_Webcam_C920_BE8A2F4F,WOB38A8,Logitech,https://www.logitech.com/en-us/product/hd-pro-webcam-c920
+3,audio interface,Saffire 6 USB,Focusrite Saffire 6 USB 2.0,S265139070746,WOB38A8,Focusrite,https://resource.focusrite.com/usb-audio-interfaces/saffire-6-usb
+4,microphone,SM7B,dynamic microphone,,WOB38A8,Shure,https://www.shure.com/en-GB/products/microphones/sm7b
+5,video mixer,ATEM Mini,,,WOB38A8,Blackmagic,https://www.blackmagicdesign.com/products/atemmini
+6,microphone preamp,FetHead,"low-noise, high quality, in-line microphone preamplifier. It provides improved sound for Ribbon and Dynamic microphones with 27 dB gain. FetHead's circuit uses 48v phantom power but shields it from the microphone, the microphone is protected.",,WOB38A8,"TritonAudio ",https://www.tritonaudio.com/fethead
+7,lighting,key light or fill light,"3 possible light temperatures: warm white, neutral white and cool white. Each light colour can be adjusted in 10 different brightnesses.",,WOB38A8,Yoozon,
+8,lighting,back light,Yongnuo YN 300 LED Video Light 5500 K,,WOB38A8,Yongnuo,
+9,lighting,softbox,Softbox Diffuser for Yongnuo YN300 III,,,,
+10,mounts,"",SMALLRIG Magic Arm field monitor mount with 1/4 inch ball head screw,"","","",""
