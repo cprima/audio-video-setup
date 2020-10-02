@@ -25,7 +25,7 @@ sass:
 
 exclude:
   - app/phy
-  - tec/phy
+#  - tec/phy
 
 defaults:
   -
